@@ -77,18 +77,18 @@ function calculateProfitAndLoss(initial, quantity, current) {
 		const lossPercentage = (current - initial) / initial * 100;
 
 		showOutput(
-			`Hey, the loss is  ${Math.round(loss)} and the percent is ${Math.round(
-				lossPercentage
-			)}% `
+			`Hey, the loss is  ${Math.round(
+				loss
+			)} and the returns in percent is ${Math.round(lossPercentage)}% `
 		);
 	} else if (current > initial) {
 		const profit = (current - initial) * quantity;
 		const profitPercentage = (current - initial) / initial * 100;
 
 		showOutput(
-			`Hey, the profit is ${Math.round(profit)} and the percent is ${Math.round(
-				profitPercentage
-			)}%`
+			`Hey, the profit is ${Math.round(
+				profit
+			)} and the returns in percent is ${Math.round(profitPercentage)}%`
 		);
 	} else {
 		showOutput(`No Gain`);
