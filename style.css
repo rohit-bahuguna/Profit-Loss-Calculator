@@ -67,6 +67,11 @@ header h1 {
 	margin: 2rem 0;
 }
 
+.error {
+	color: red;
+	font-size: 1rem;
+}
+
 /* Footer */
 
 footer {
