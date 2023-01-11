@@ -19,7 +19,8 @@ A website which helps user with how much profit or loss he/she is making through
  - Click on the Tell Me button
  - Output will be shown below the button after its calculated.
  
- ![Screenshot from 2023-01-11 09-57-50](https://user-images.githubusercontent.com/90442893/211717827-525dcb79-a887-4b3d-b47b-14744f8ce576.png)
+
+![Screenshot from 2023-01-11 09-59-25](https://user-images.githubusercontent.com/90442893/211717906-6e7b0e28-4968-4ea3-bdc9-080908a5423b.png)
 
 
 # Programming Language:
