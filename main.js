@@ -17,17 +17,21 @@ function submitHandler() {
 function calculateProfitAndLoss(initial, quantity, current) {
 	if (initial > current) {
 		const loss = (initial - current) * quantity;
-		const lossPercentage = loss / initial * 100;
+		const lossPercentage = (current - initial) / initial * 100;
 
 		showOutput(
-			`Hey, the loss is ${loss} and the percent is ${lossPercentage}%`
+			`Hey, the loss is  ${Math.round(loss)} and the percent is ${Math.round(
+				lossPercentage
+			)}% `
 		);
 	} else if (current > initial) {
 		const profit = (current - initial) * quantity;
-		const profitPercentage = profit / initial * 100;
+		const profitPercentage = (current - initial) / initial * 100;
 
 		showOutput(
-			`Hey, the profit is ${profit} and the percent is ${profitPercentage}%`
+			`Hey, the profit is ${Math.round(profit)} and the percent is ${Math.round(
+				profitPercentage
+			)}%`
 		);
 	} else {
 		showOutput(`No Gain`);
